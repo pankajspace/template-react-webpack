@@ -13,12 +13,22 @@ module.exports = {
     port: 9000,
     hot: true, // Enable hot module replacement feature
     historyApiFallback: true, // Enable HTML5 History API fallback for index.html 404 responses 
-
   },
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'), // output directory
     clean: true,
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: [
+          'style-loader',
+          'css-loader'
+        ]
+      }
+    ]
   },
   plugins: [
     new HtmlWebpackPlugin({

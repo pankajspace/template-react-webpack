@@ -14,3 +14,8 @@ npm install html-webpack-plugin --save-dev
 
 ### Webpack Dev Server
 npm install webpack-dev-server --save-dev
+
+## Css setup
+
+### To insert css files into the bundle main.js
+npm i --save-dev style-loader css-loader
