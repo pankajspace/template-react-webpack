@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   mode: 'development',
   entry: './src/index.js',
-  devtool: 'inline-source-map',
+  devtool: 'inline-source-map', // Add source maps for debugging
   devServer: {
     static: {
       directory: path.join(__dirname, 'dist'), // Serve files from the dist directory
@@ -32,27 +32,27 @@ module.exports = {
         ]
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        test: /\.(png|svg|jpg|jpeg|gif)$/i, // Load images
         type: 'asset/resource',
       },
       {
-        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        test: /\.(woff|woff2|eot|ttf|otf)$/i, // Load fonts
         type: 'asset/resource',
       },
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
-          loader: "babel-loader",
+          loader: "babel-loader", // Transpile ES6+ code to ES5 using Babel
           options: {
-            presets: ['@babel/preset-env', '@babel/preset-react']
+            presets: ['@babel/preset-env', '@babel/preset-react'] // Presets for transpiling ES6+ and React
           }
         },
       },
     ]
   },
   plugins: [
-    new HtmlWebpackPlugin({
+    new HtmlWebpackPlugin({ // Generate index.html file in the dist directory copying the content from the public/index.html file
       title: 'React Webpack Template',
       template: './public/index.html',
     }),
