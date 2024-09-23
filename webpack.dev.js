@@ -24,8 +24,8 @@ module.exports = {
       {
         test: /\.css$/i,
         use: [
-          'style-loader',
-          'css-loader'
+          'style-loader', // Inject CSS into the DOM using style tag 
+          'css-loader', // Read CSS files and return CSS code as string to the webpack bundler   
         ]
       },
       {
