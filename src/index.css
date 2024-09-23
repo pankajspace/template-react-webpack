@@ -1,8 +1,21 @@
+/* fonts start */
+
+@font-face {
+  font-family: 'Lumanosimo-Regular';
+  src: url('./fonts/Lumanosimo-Regular.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* fonts end */
+
+
 /* Reset CSS start */
 
 html {
   /* for making 1rem = 10px */
   font-size: 62.5%;
+  font-family: "Lumanosimo-Regular", sans-serif;
 }
 
 body {
