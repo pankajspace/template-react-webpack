@@ -13,7 +13,7 @@ This is a basic setup for React applications using Webpack. It includes the foll
 1. I have created a separate branch for each feature. You can use the branch that you need for your project.
 2. Branch names are sequentially numbered for easy reference.
 3. All feautures are available into the main branch if you want to use all features.
-4. I will keep updating this repository with new features and improvements.
+4. I will keep updating this repository with more features by creating a new branch for each new feature.
 
 ## Installation
 1. Clone the repository
