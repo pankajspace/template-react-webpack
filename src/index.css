@@ -40,7 +40,7 @@ body {
   color: white;
 }
 
-.container {
+.wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;

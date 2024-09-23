@@ -19,6 +19,9 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'), // output directory
     clean: true,
   },
+  resolve: {
+    extensions: ['.js', '.jsx'], // Automatically resolve certain extensions in import statements 
+  },
   module: {
     rules: [
       {
@@ -35,6 +38,16 @@ module.exports = {
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: 'asset/resource',
+      },
+      {
+        test: /\.(js|jsx)$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: ['@babel/preset-env', '@babel/preset-react']
+          }
+        },
       },
     ]
   },
