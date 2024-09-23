@@ -1,3 +1,5 @@
 import './index.css';
+import webpackLogo from "./images/webpack.png";
 
-console.log('Hello, world!!!');
+const image = document.querySelector("#image");
+image.src = webpackLogo;
