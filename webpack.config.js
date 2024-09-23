@@ -2,7 +2,6 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  mode: 'development',
   entry: './src/index.js',
   devtool: 'inline-source-map', // Add source maps for debugging
   devServer: {
@@ -13,6 +12,7 @@ module.exports = {
     port: 9000,
     hot: true, // Enable hot module replacement feature
     historyApiFallback: true, // Enable HTML5 History API fallback for index.html 404 responses 
+    open: true, // Open the default browser when the server starts
   },
   output: {
     filename: 'main.js',

@@ -1,13 +1,7 @@
-import './index.css';
-import webpackLogo from "./images/webpack.png";
-
-const image = document.querySelector("#image");
-image.src = webpackLogo;
-
-// React code
 import React from "react";
 import { createRoot } from 'react-dom/client';
 
+import './index.css';
 import App from "./components/App";
 
 const container = document.getElementById('react-app');
