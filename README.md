@@ -1,2 +1,1 @@
-# template-react-webpack-basic
-Basic webpack setup for React applications
+# Basic Webpack setup for React applications
