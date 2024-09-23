@@ -11,3 +11,6 @@ Basic Webpack setup for React applications
 
 ### Html Webpack Plugin
 npm install html-webpack-plugin --save-dev
+
+### Webpack Dev Server
+npm install webpack-dev-server --save-dev
