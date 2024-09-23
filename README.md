@@ -7,7 +7,7 @@ Basic Webpack setup for React applications
 4. create src/index.js
 5. create webpack.dev.js
 
-## Webpack Plugins
+## Webpack
 
 ### Html Webpack Plugin
 npm install html-webpack-plugin --save-dev
