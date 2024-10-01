@@ -1,0 +1,56 @@
+/* fonts start */
+
+@font-face {
+  font-family: 'Lumanosimo-Regular';
+  src: url('./fonts/Lumanosimo-Regular.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* fonts end */
+
+
+/* Reset CSS start */
+
+html {
+  /* for making 1rem = 10px */
+  font-size: 62.5%;
+  font-family: "Lumanosimo-Regular", sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 2rem;
+  /* 20px */
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Reset CSS end */
+
+
+body {
+  background-color: black;
+  color: white;
+}
+
+#react-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+
+  .item {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    border-radius: 0.5rem;
+  }
+}
