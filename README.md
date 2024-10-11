@@ -1,27 +1,22 @@
 # Basic Webpack setup for React applications
-This is a basic setup for React applications using Webpack. It includes the following features:
-- Html
-- CSS
-- Fonts
-- Images
-- React
-- Webpack
-- EsLint
-- Webpack Dev Server
 
-## How to use this repository to create a new React application
-1. I have created a separate branch for each feature. You can use the branch that you need for your project.
-2. Branch names are sequentially numbered for easy reference.
-3. All feautures are available into the main branch if you want to use all features.
-4. I will keep updating this repository with more features by creating a new branch for each new feature.
-
-## Installation
+## Installation and setup instructions
 1. Clone the repository
 2. Run `npm install`
 3. Run `npm start` to start the development server
 4. Run `npm run lint` to check for linting errors
 5. Run `npm run lint:fix` to fix linting errors
 6. `npm run build` to build the project for production
+
+
+# How to use this repository to create a new React application with specific features
+1. I have created a separate branch for each feature. You can use the branch that you need for your project.
+2. Branch names are sequentially numbered for easy reference.
+3. All feautures are available into the main branch if you want to use all features.
+4. I will keep updating this repository with more features by creating a new branch for each new feature.
+
+
+# Following are the steps about how this repository is created for enthusiasts who want to create their own setup from scratch.
 
 ## Basic Webpack setup
 1. npm init -y
