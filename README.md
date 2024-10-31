@@ -1,6 +1,6 @@
-# Basic Webpack setup for React applications
+## Basic Webpack setup for React applications
 
-## Installation and setup instructions
+### Installation and setup instructions
 1. Clone the repository
 2. Run `npm install`
 3. Run `npm start` to start the development server
@@ -9,32 +9,32 @@
 6. `npm run build` to build the project for production
 
 
-# How to use this repository to create a new React application with specific features
+## How to use this repository to create a new React application with specific features
 1. I have created a separate branch for each feature. You can use the branch that you need for your project.
 2. Branch names are sequentially numbered for easy reference.
 3. All feautures are available into the main branch if you want to use all features.
 4. I will keep updating this repository with more features by creating a new branch for each new feature.
 
 
-# Following are the steps about how this repository is created for enthusiasts who want to create their own setup from scratch.
+## Following are the steps about how this repository is created for enthusiasts who want to create their own setup from scratch.
 
-## Basic Webpack setup
+### Basic Webpack setup
 1. npm init -y
 2. npm install webpack webpack-cli --save-dev
 3. create public/index.html
 4. create src/index.js
 5. create webpack.dev.js
 
-## Html Webpack Plugin
+### Html Webpack Plugin
 npm install html-webpack-plugin --save-dev
 
-## Webpack Dev Server
+### Webpack Dev Server
 npm install webpack-dev-server --save-dev
 
-## Css setup
+### Css setup
 npm i --save-dev style-loader css-loader
 
-## React setup
+### React setup
 1. Babel libraries for React and ES6   
 - npm install @babel/core @babel/preset-env @babel/preset-react --save-dev
 2. Babel loader for Webpack
